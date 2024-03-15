@@ -1,26 +1,18 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
 def for_loop():
-    name = input("Nhap ten cua ban: ")
+    name = input("Nhập tên của bạn: ")
     for c in name:
         print(c)
-    # Use a breakpoint in the code line below to debug your script.
-     # Press Ctrl+F8 to toggle the breakpoint.
+
 
 
 def odd_num():
+    print("Tính tổng các số lẻ từ 1 đến 10")
     sum = 0
-    a = int(input(f"Nhap d1: "))
-    b = int(input(f"Nhap d2: "))
-    for i in range(a ,b):
+    for i in range(1 ,11):
         if (i % 2 != 0):
             print(i)
             sum+=i
-    print(f'Tong cac so la: {sum}')
+    print(f'Tổng các số lẻ là: {sum}')
 
 
 def Cau4():
@@ -118,9 +110,9 @@ def Cau9():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    for_loop()
-    #odd_num()
-    #Cau4()
+    # for_loop()
+    # odd_num()
+    Cau4()
     #Cau5()
     #Cau6()
     #Cau7()
